@@ -1,6 +1,6 @@
 import random
 
-respuestas = ["Sí", "No", "Tal vez", "Pregunta de nuevo", "Definitivamente", "Nunca"]
+respuestas = ["Sí", "No", "Tal vez", "Pregunta de nuevo", "Definitivamente", "Nunca", "Siempre", "Mal", "Mas vale"]
 
 print("🔮 Ouija Digital 🔮")
 print("Escribe tu pregunta (solo sí/no):")
