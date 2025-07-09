@@ -1,7 +1,10 @@
-# main.py
-def saludar(nombre):
-    return f"¡Hola {nombre}! Bienvenido a Python."
+import random
 
-if __name__ == "__main__":
-    nombre = input("¿Cómo te llamas? ")
-    print(saludar(nombre))
+respuestas = ["Sí", "No", "Tal vez", "Pregunta de nuevo", "Definitivamente", "Nunca"]
+
+print("🔮 Ouija Digital 🔮")
+print("Escribe tu pregunta (solo sí/no):")
+
+while True:
+    input("> ")  # Espera pregunta
+    print(f"La Ouija dice: {random.choice(respuestas)}\n")
